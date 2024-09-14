@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10%;
+    border: 2px solid #1645c5 ;
+  }
+  
+  .resume-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color:#1645c5 ;
+  }
+  header p {
+    -webkit-text-fill-color: white;
+  }
+
+  .profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  .personal-info {
+    margin-top: 10px;
+  }
+
+  section {
+    margin: 20px 0;
+  }
+  h1{
+    -webkit-text-fill-color: white;
+    padding: 10%;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    background-color:#1645c5 ;
+    -webkit-text-fill-color: white;
+    
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  ul li {
+    font-size: 18px;
+    padding: 5px 0;
+  }
+
+  .btn {
+    background-color: #1645c5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .btn:hover {
+    background-color: #919087;
+  }
+
+  #skills-list {
+    display: none; /* Initially hidden */
+  }
+
+  /* Responsive Design for Mobile */
+  @media screen and (max-width: 768px) {
+    .resume-container {
+      padding: 10px;
+    }
+
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .profile-image {
+      width: 100px;
+      height: 100px;
+    }
+
+    h1 {
+      font-size: 24px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    ul li {
+      font-size: 16px;
+    }
+
+    .btn {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
